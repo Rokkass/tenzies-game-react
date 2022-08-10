@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #2b283a;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 340px;
+  padding: 35px 35px 10px;
+  text-align: center;
+  width: 340px;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  margin-top: 10px;
+}
+.dice__wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 20px;
+  width: 100%;
+}
+
+.dice {
+  aspect-ratio: 1;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  font-family: "Karla", sans-serif;
+  height: 40px;
+  line-height: 40px;
+}
+
+.dice__clicked {
+  background-color: #59e391;
+}
+
+.roll__button {
+  background: #5035ff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
+  color: #fff;
+  cursor: pointer;
+  height: 36px;
+  line-height: 36px;
+  width: 92px;
+}
+
+.roll__button:focus {
+  outline: none;
+}
+
+.roll__button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.bottom__wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.rolls {
+  line-height: 36px;
+}
+
+.times__wrapper {
+  color: #fff;
+  line-height: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
