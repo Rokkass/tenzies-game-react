@@ -5,6 +5,7 @@ Things i've added myself:
 - track the time it took to win
 - save best time to localStorage
 
+Link: https://rokkass-makes-great-sites.netlify.app/
 
 Course: https://youtu.be/bMknfKXIFA8?t=16674
 
