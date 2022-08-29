@@ -1,6 +1,6 @@
-My second React website, created with Free Code Camp course.
-
 Game goal is to get all ten of your dice to show the same number as fast as posible.
+
+Created with Free Code Camp course.
 
 Things i've added myself:
 - change number to dots on dice
