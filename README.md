@@ -1,4 +1,4 @@
-Game goal is to get all ten of your dice to show the same number as fast as posible.
+Game goal is to get all ten of your dice to show the same number as fast as possible.
 
 Created with Free Code Camp course.
 
